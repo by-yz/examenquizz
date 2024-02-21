@@ -80,6 +80,7 @@
         $("#code2").show()
         $("#send_quizz2").show()
         $("enter_code2").show()
+        $("#send_quizz1").hide()
     }
 </script>
 
@@ -115,6 +116,7 @@
         $("#code3").show()
         $("#send_quizz3").show()
         $("enter_code3").show()
+        $("#send_quizz2").hide()
     }
 </script>
 
@@ -135,13 +137,14 @@
 <button id = "valid_quizz4" onclick="gen_code4()" type = "submit" style="display: none">Valider le quizz</button><br>
 
 <input type="integer" id="code4" name="code" placeholder="Code personnel - ex : 1234" required style="display: none"><br>
-<button id="send_quiz4z" type="submit" style="display: none">Enregister le quizz</button>
+<button id="send_quizz4" type="submit" style="display: none">Enregister le quizz</button>
 
 <script>
     function gen_code4(){
         $("#code4").show()
         $("#send_quizz4").show()
         $("enter_code4").show()
+        $("#send_quizz3").hide()
     }
 </script>
 
