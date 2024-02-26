@@ -2,7 +2,7 @@ $(document).ready(function () {
     $('#send_quizz1').click(function () {
         var question = {
             'valeur1': $('#question1').val(),
-            'valeur2': $("#code1").val(),
+            'valeur2': $("#nmae1").val(),
 
 
         };
