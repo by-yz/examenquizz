@@ -58,11 +58,13 @@
 <body>
 
     <h1>Connectez-vous au quizz !</h1>
+    <form action="submit.php" method = "post">
     <label for='name_conn'>nom :</label>
     <input type="integer" id="name_conn" name="name" placeholder="ex : Mathieu" required><br>
 
     <br><br><br>
     <button id="verifierNom" onclick='conn_qcm()' type="submit">Envoyer ma demande!</button>
+    </form>
     <div id=resultat>
         <p>Voici vos resultat</p>
     </div>
