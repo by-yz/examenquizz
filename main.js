@@ -29,7 +29,7 @@ $(document).ready(function () {
 /////VERFICATION DU NOM///////
 $(document).ready(function () {
     $("#verifierNom").on("click", function () {
-        var nomSaisi = $("#anme_conn").val();
+        var nomSaisi = $("#name_conn").val();
 
         // Effectuer la requête Ajax
         $.ajax({
