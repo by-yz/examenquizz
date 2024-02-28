@@ -54,7 +54,7 @@
             font-family: Arial, sans-serif;
         }
 
-        
+
 
         .boutton {
             margin-top: 10px;
@@ -63,16 +63,16 @@
     </style>
     <h1>Créer ton propre Quizz !</h1>
     <form action="submit.php" method="post">
-        <label for="question1">Votre premiere Question :</label>
-        <input type="text" id="question1" name="question1"><br><br>
+        <strong><label for="question1">Votre premiere Question :</label></strong>
+        <input type="text" id="question1" name="question1"><br>
         <input type="radio" id="repA_1" name="reponse1_A" value="1">
-        <label for="repA_1">""</label><br>
+        <input type="text" name="reponse1_A" placeholder="Réponse A">
         <input type="radio" id="repB_1" name="reponse1_B" value="2">
-        <label for="repB_1">""</label><br>
+        <input type="text" name="reponse1_B" placeholder="Réponse B">
         <input type="radio" id="repC_1" name="reponse1_C" value="3">
-        <label for="repC_1">""</label><br>
+        <input type="text" name="reponse1_C" placeholder="Réponse C">
         <input type="radio" id="repD_1" name="reponse1_D" value="4">
-        <label for="repD_1">""</label><br>
+        <input type="text" name="reponse1_D" placeholder="Réponse D">
     </form>
 
     <button id="id_qts1" onclick="addQCM()" class="boutton">Ajouter une question à la QCM</button>
@@ -104,16 +104,16 @@
 
 
     <form action="submit.php" method="post" id="form2" style="display: none">
-        <label for="question2">Votre deuixeme Question :</label>
-        <input type="text" id="question2" name="question2"><br><br>
+        <strong><label for="question2">Votre deuixeme Question :</label></strong>
+        <input type="text" id="question2" name="question2"><br>
         <input type="radio" id="repA_2" name="reponse2_A" value="1">
-        <label for="repA_2">""</label><br>
+        <input type="text" name="reponse2_A" placeholder="Réponse A">
         <input type="radio" id="repB_2" name="reponse2_B" value="2">
-        <label for="repB_2">""</label><br>
+        <input type="text" name="reponse2_B" placeholder="Réponse B">
         <input type="radio" id="repC_2" name="reponse2_C" value="3">
-        <label for="repC_2">""</label><br>
+        <input type="text" name="reponse2_C" placeholder="Réponse C">
         <input type="radio" id="repD_2" name="reponse2_D" value="4">
-        <label for="repD_2">""</label><br>
+        <input type="text" name="reponse2_D" placeholder="Réponse D">
     </form>
 
     <button id="id_qts2" class="boutton" onclick="addQTS()" style="display: none">Ajouter une question à la QCM</button>
@@ -148,16 +148,16 @@
     </script>
 
     <form action="submit.php" method="post" id="form3" style="display: none">
-        <label for="question3">Votre troisieme Question :</label>
-        <input type="text" id="question3" name="question3"><br><br>
+        <strong><label for="question3">Votre troisieme Question :</label></strong>
+        <input type="text" id="question3" name="question3"><br>
         <input type="radio" id="repA_3" name="reponse3_A" value="1">
-        <label for="repA_3">""</label><br>
+        <input type="text" name="reponse3_A" placeholder="Réponse A">
         <input type="radio" id="repB_3" name="reponse3_B" value="2">
-        <label for="repB_3">""</label><br>
+        <input type="text" name="reponse3_B" placeholder="Réponse B">
         <input type="radio" id="repC_3" name="reponse3_C" value="3">
-        <label for="repC_3">""</label><br>
+        <input type="text" name="reponse3_C" placeholder="Réponse C">
         <input type="radio" id="repD_3" name="reponse3_D" value="4">
-        <label for="repD_3">""</label><br>
+        <input type="text" name="reponse3_D" placeholder="Réponse D">
     </form>
 
     <button id="id_qts3" class="boutton" onclick="addQT()" style="display: none">Ajouter une question à la QCM</button>
@@ -190,19 +190,19 @@
     </script>
 
     <form action="submit.php" method="post" id="form4" style="display: none">
-        <label for="question4">Votre quatrieme Question :</label>
-        <input type="text" id="question4" name="question4"><br><br>
+        <strong><label for="question4">Votre quatrieme Question :</label></strong>
+        <input type="text" id="question4" name="question4"><br>
         <input type="radio" id="repA_4" name="reponse4_A" value="1">
-        <label for="repA_4">""</label><br>
+        <input type="text" name="reponse4_A" placeholder="Réponse A">
         <input type="radio" id="repB_4" name="reponse4_B" value="2">
-        <label for="repB_4">""</label><br>
+        <input type="text" name="reponse4_B" placeholder="Réponse B">
         <input type="radio" id="repC_4" name="reponse4_C" value="3">
-        <label for="repC_4">""</label><br>
+        <input type="text" name="reponse4_C" placeholder="Réponse C">
         <input type="radio" id="repD_4" name="reponse4_D" value="4">
-        <label for="repD_4">""</label><br>
+        <input type="text" name="reponse4_D" placeholder="Réponse D">
     </form>
 
-   
+
     <button id="valid_quizz4" class="boutton" onclick="gen_code4()" type="submit" style="display: none">Valider la
         question</button><br>
 
