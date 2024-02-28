@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultats des personnes</title>
+    <style>
+        body {
+            place-items: center;
+            min-height: 100vh;
+            margin: 0;
+            overflow-y: auto;
+            background: linear-gradient(to bottom, #000033, #330066, #660099, #9900cc);
+            color: white;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #1a1a1a;
+            color: #fff;
+            text-align: center;
+            padding: 50px;
+            overflow-y: auto;
+            background: linear-gradient(to bottom, #000033, #330066, #660099, #9900cc);
+            color: white;
+        }
+
+
+        form {
+            display: inline-block;
+            text-align: left;
+        }
+
+        input {
+            padding: 10px;
+            margin: 10px;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 10px;
+            background-color: #3E176F;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            width: 100%;
+            box-sizing: border-box;
+            margin-top: 5px;
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Résultats des personnes</h1>
+        <form method="post" action="resultat.php">
+            <label for="prenom">Entrez votre prénom :</label>
+            <input type="text" id="prenom" name="prenom" required>
+            <button type="submit">Voir le résultat</button>
+        </form>
+    </div>
+</body>
+
+</html>
