@@ -29,8 +29,8 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('#send_quizz2').click(function () {
         var question = {
-            'valeur3': $('#question2').val(),
-            'valeur4': $("#name2").val(),
+            'valeur1': $('#question2').val(),
+            'valeur2': $("#name2").val(),
 
 
         };
@@ -57,8 +57,8 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('#send_quizz3').click(function () {
         var question = {
-            'valeur5': $('#question3').val(),
-            'valeur6': $("#name3").val(),
+            'valeur1': $('#question3').val(),
+            'valeur2': $("#name3").val(),
 
 
         };
@@ -85,8 +85,8 @@ $(document).ready(function () {
 $(document).ready(function () {
     $('#send_quizz4').click(function () {
         var question = {
-            'valeur7': $('#question4').val(),
-            'valeur8': $("#name4").val(),
+            'valeur1': $('#question4').val(),
+            'valeur2': $("#name4").val(),
 
 
         };
